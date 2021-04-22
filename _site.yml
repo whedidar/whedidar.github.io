@@ -1,6 +1,3 @@
----
-title: test site
----
 name: "Twitter Project"
 output_dir: "."
 navbar:

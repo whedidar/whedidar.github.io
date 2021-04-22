@@ -1,3 +1,19 @@
 ---
 title: test site
 ---
+name: "Twitter Project"
+output_dir: "."
+navbar:
+  title: "Eels Twitter Porject"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Project"
+      href: project.html
+    - text: "About"
+      href: about.html
+
+output:
+  html_document:
+    theme: simplex
+    highlight: textmate

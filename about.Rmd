@@ -1,7 +1,5 @@
 ---
-title: "about"
-author: "Walid Hedidar"
-date: "4/22/2021"
+title: "Acknowledgments"
 output: html_document
 ---
 
@@ -9,4 +7,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Finally, *#GoEels*: This assignment was a collaborative effort between Walid Hedidar, Aamia Malik, Michael Murphy, Jon Sirota, Cory Winkler, and Jennifer Xue. All are graduate students at the University of Pennsylvania. 
+
+This assignment was a collaborative effort between Walid Hedidar, Aamia Malik, Michael Murphy, Jon Sirota, Cory Winkler, and Jennifer Xue. All are graduate students at the University of Pennsylvania. 
+
+
+*#GoEels* 

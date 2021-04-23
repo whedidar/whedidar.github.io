@@ -1,18 +1,26 @@
 ---
-title: "index"
-author: "Walid Hedidar"
-date: "4/22/2021"
+title: "Twitter Project - Eels Group"
+author: "Created by: Walid Hedidar"
+date: "Date: 4/22/2021"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## In this report, we analyze Elon Musk's and Tim Cook's tweets.
+
+<h2> Welcome! </h2>
 
 
-<h2> Introduction </h2>
-For this assignment, we are interested in the comparing tweets from **Elon Musk** and **Tim Cook**. Our main research question is the following: *How do tweets from Elon Musk and Tim Cook differ?*. Before starting the research process, we hypothesize that there would be a large difference in the sentiment of tweets; that is, we postulate that tweets from Elon will contain more extreme sentiments than those from Tim. Additionally, we expect that Elon may have more tweets with pictures while also tweeting at more sproradic and unconventional times of the day in comparison to Tim.
+This website summarize a project conducted to compare **Tweets** between **Elon Musk** and ***Tim Cook**. This tab includes details about the methodology. The Project tab will include details about the analysis and findings. Finally, the About tab will contain details about the contributors to the project. 
+
+
+<h3> Introduction </h3>
+
+
+For this assignment, we are interested in the comparing tweets from **Elon Musk** and **Tim Cook**. Our main research question is the following: *How do tweets from Elon Musk and Tim Cook differ?*. 
+
+Before starting the research process, we hypothesize that there would be a large difference in the sentiment of tweets; that is, we postulate that tweets from Elon will contain more extreme sentiments than those from Tim. Additionally, we expect that Elon may have more tweets with pictures while also tweeting at more sporadic and unconventional times of the day in comparison to Tim.
 
 In sum, we have three hypotheses:
 
@@ -20,7 +28,9 @@ In sum, we have three hypotheses:
 2. Tim will have fewer tweets with pictures/links, compared to Elon
 3. Elon will have more sporadic tweeting patterns, compared to Tim
 
-<h2> Methodology </h2>
+
+<h3> Methodology </h3>
+
 
 In order to investigate potential differences between the tweets of Elon Musk and Tim Cook, our methodology covered the following:
 

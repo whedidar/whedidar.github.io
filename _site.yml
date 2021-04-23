@@ -1,7 +1,7 @@
 name: "Twitter Project"
 output_dir: "."
 navbar:
-  title: "Eels Twitter Porject"
+  title: "Eels Twitter Project"
   left:
     - text: "Home"
       href: index.html

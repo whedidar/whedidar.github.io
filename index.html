@@ -9,10 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Walid Hedidar" />
+<meta name="author" content="Created by: Walid Hedidar" />
 
 
-<title>index</title>
+<title>Twitter Project - Eels Group</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -238,7 +238,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Eels Twitter Porject</a>
+      <a class="navbar-brand" href="index.html">Eels Twitter Project</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -263,14 +263,44 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">index</h1>
-<h4 class="author">Walid Hedidar</h4>
-<h4 class="date">4/22/2021</h4>
+<h1 class="title toc-ignore">Twitter Project - Eels Group</h1>
+<h4 class="author">Created by: Walid Hedidar</h4>
+<h4 class="date">Date: 4/22/2021</h4>
 
 </div>
 
 
-<p>HEYYYY</p>
+<h2>
+Welcome!
+</h2>
+<p>This website summarize a project conducted to compare <strong>Tweets</strong> between <strong>Elon Musk</strong> and *<strong>Tim Cook</strong>. This tab includes details about the methodology. The Project tab will include details about the analysis and findings. Finally, the About tab will contain details about the contributors to the project.</p>
+<h3>
+Introduction
+</h3>
+<p>For this assignment, we are interested in the comparing tweets from <strong>Elon Musk</strong> and <strong>Tim Cook</strong>. Our main research question is the following: <em>How do tweets from Elon Musk and Tim Cook differ?</em>.</p>
+<p>Before starting the research process, we hypothesize that there would be a large difference in the sentiment of tweets; that is, we postulate that tweets from Elon will contain more extreme sentiments than those from Tim. Additionally, we expect that Elon may have more tweets with pictures while also tweeting at more sporadic and unconventional times of the day in comparison to Tim.</p>
+<p>In sum, we have three hypotheses:</p>
+<ol style="list-style-type: decimal">
+<li>Elon will have more extreme sentiment in his tweets, compared to Tim</li>
+<li>Tim will have fewer tweets with pictures/links, compared to Elon</li>
+<li>Elon will have more sporadic tweeting patterns, compared to Tim</li>
+</ol>
+<h3>
+Methodology
+</h3>
+<p>In order to investigate potential differences between the tweets of Elon Musk and Tim Cook, our methodology covered the following:</p>
+<ul>
+<li>Comparing time patterns between the tweets of both accounts. The purpose for this was to gather information about the times of the day during which both accounts tweet the most or the least.<br />
+</li>
+<li>Comparing the number of tweets with or without pictures/links from both users The purpose for this was to understand which user tends to include pictures/links in their tweets more often.</li>
+<li>Tokenizing the tweets in each account. The purpose for this was to identify differences between popular words tweeted between both accounts and to conduct a sentiment analysis on each sample of tweets.</li>
+</ul>
+<p>For our predictive algorithm, we divided our data into test and train data and applied a decision tree to identify the srouces of the tweet based on the following variables:</p>
+<ul>
+<li>Whether the tweet contained pictures/links</li>
+<li>The hour of the day during which the tweet was published</li>
+<li>The sentiment score using the AFINN dictionary</li>
+</ul>
 
 
 
